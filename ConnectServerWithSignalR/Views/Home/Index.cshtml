@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>New ticket from client : </h3>
+Client Ticket : <p id="notif"></p>
+
+<input class="form-control mb-2" id="title" name="title" placeholder="Please enter ticket title" />
+<textarea class="form-control mb-2" id="body" name="body" placeholder="Please enter ticket body"></textarea>
+<button type="button" class="btn btn-primary" onclick="SendTicket()">Send ticket to client !</button>
